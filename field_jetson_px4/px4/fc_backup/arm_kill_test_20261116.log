@@ -1,0 +1,9 @@
+recording 150s ...
+[   0.0s] SWA UP  (throttle ch3=1027)
+[   0.0s] DISARMED
+[   0.5s] motors (1000, 1000, 1000, 1000) stopped
+[  30.0s] ARMED
+[  33.9s] SWA DOWN(kill)  (throttle ch3=1027)
+[  39.0s] DISARMED
+[  47.9s] SWA UP  (throttle ch3=1027)
+done

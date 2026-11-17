@@ -1,0 +1,120 @@
+=== fly_mission_px4 | LIVE (will ARM and FLY) | target 'bus' | D0 1.5 D_SAFE 0.7 HOVER_Z 1.0
+load YOLO
+[link] connecting udpin:0.0.0.0:14540
+[link] PX4 heartbeat sys 1
+[link] local position ok: x -0.02 y 0.03 z 0.05 yaw 96 deg
+[link] OFFBOARD
+[link] ARMED -> takeoff
+[link] at hover altitude
+SEARCH: yaw-sweep for 'bus'
+[0.0] ACQUIRED (bus conf 0.68) -> FOLLOW
+[0.0] FOLLOW      bh=104 cx=322 conf=0.68 depth=2.38 -> vx=0.00 yaw_rate=0.45
+[0.3] intrinsics: fy=607px, target 0.396m
+[0.3] FOLLOW      bh=105 cx=316 conf=0.54 depth=2.38 -> vx=0.40 yaw_rate=-0.02
+[0.6] FOLLOW      bh=104 cx=265 conf=0.48 depth=2.37 -> vx=0.41 yaw_rate=-0.22
+[0.8] FOLLOW      bh=105 cx=233 conf=0.58 depth=2.34 -> vx=0.00 yaw_rate=-0.35
+[1.1] FOLLOW      bh=106 cx=248 conf=0.66 depth=2.30 -> vx=0.00 yaw_rate=-0.29
+[1.4] FOLLOW      bh=108 cx=317 conf=0.76 depth=2.23 -> vx=0.36 yaw_rate=-0.01
+[1.7] FOLLOW      bh=111 cx=371 conf=0.68 depth=2.19 -> vx=0.33 yaw_rate=0.20
+[1.9] FOLLOW      bh=115 cx=391 conf=0.64 depth=2.15 -> vx=0.00 yaw_rate=0.28
+[2.2] FOLLOW      bh=114 cx=364 conf=0.67 depth=2.10 -> vx=0.31 yaw_rate=0.17
+[2.5] SEARCH      bh=0 cx=320 conf=0.00 depth=- -> vx=0.00 yaw_rate=0.00
+[2.7] ACQUIRED (bus conf 0.78) -> FOLLOW
+[2.7] FOLLOW      bh=121 cx=268 conf=0.78 depth=1.99 -> vx=0.00 yaw_rate=0.45
+[3.0] FOLLOW      bh=124 cx=248 conf=0.67 depth=1.93 -> vx=0.00 yaw_rate=-0.29
+[3.3] FOLLOW      bh=125 cx=203 conf=0.77 depth=1.88 -> vx=0.00 yaw_rate=-0.47
+[3.6] FOLLOW      bh=128 cx=207 conf=0.77 depth=1.87 -> vx=0.00 yaw_rate=-0.45
+[3.8] FOLLOW      bh=127 cx=279 conf=0.74 depth=1.89 -> vx=0.20 yaw_rate=-0.17
+[4.1] FOLLOW      bh=129 cx=362 conf=0.71 depth=1.89 -> vx=0.18 yaw_rate=0.17
+[4.4] FOLLOW      bh=129 cx=414 conf=0.80 depth=1.87 -> vx=0.00 yaw_rate=0.38
+[4.7] SEARCH      bh=0 cx=320 conf=0.00 depth=- -> vx=0.00 yaw_rate=0.00
+[4.9] ACQUIRED (bus conf 0.67) -> FOLLOW
+[4.9] FOLLOW      bh=133 cx=350 conf=0.67 depth=1.83 -> vx=0.00 yaw_rate=0.45
+[5.2] FOLLOW      bh=134 cx=302 conf=0.66 depth=1.80 -> vx=0.15 yaw_rate=-0.07
+[5.5] FOLLOW      bh=135 cx=254 conf=0.66 depth=1.78 -> vx=0.00 yaw_rate=-0.27
+[5.8] FOLLOW      bh=134 cx=238 conf=0.77 depth=1.77 -> vx=0.00 yaw_rate=-0.33
+[6.0] FOLLOW      bh=134 cx=273 conf=0.79 depth=1.76 -> vx=0.14 yaw_rate=-0.19
+[6.3] FOLLOW      bh=136 cx=333 conf=0.81 depth=1.76 -> vx=0.13 yaw_rate=0.05
+[6.6] FOLLOW      bh=139 cx=379 conf=0.57 depth=1.74 -> vx=0.12 yaw_rate=0.23
+[6.8] FOLLOW      bh=141 cx=390 conf=0.41 depth=1.71 -> vx=0.00 yaw_rate=0.28
+[7.1] FOLLOW      bh=143 cx=358 conf=0.85 depth=1.68 -> vx=0.09 yaw_rate=0.15
+[7.4] FOLLOW      bh=147 cx=294 conf=0.63 depth=1.65 -> vx=0.07 yaw_rate=-0.11
+[7.7] FOLLOW      bh=147 cx=254 conf=0.76 depth=1.62 -> vx=0.00 yaw_rate=-0.26
+[7.9] FOLLOW      bh=148 cx=261 conf=0.79 depth=1.60 -> vx=0.06 yaw_rate=-0.24
+[8.2] FOLLOW      bh=149 cx=300 conf=0.68 depth=1.59 -> vx=0.05 yaw_rate=-0.08
+[8.5] FOLLOW      bh=152 cx=346 conf=0.47 depth=1.58 -> vx=0.04 yaw_rate=0.10
+[8.7] FOLLOW      bh=151 cx=371 conf=0.53 depth=1.56 -> vx=0.05 yaw_rate=0.20
+[9.0] FOLLOW      bh=153 cx=365 conf=0.80 depth=1.55 -> vx=0.03 yaw_rate=0.18
+[9.3] FOLLOW      bh=153 cx=331 conf=0.71 depth=1.54 -> vx=0.04 yaw_rate=0.04
+[9.6] FOLLOW      bh=156 cx=284 conf=0.85 depth=1.52 -> vx=0.02 yaw_rate=-0.15
+[9.8] FOLLOW      bh=156 cx=269 conf=0.74 depth=1.50 -> vx=0.02 yaw_rate=-0.20
+[10.1] FOLLOW      bh=157 cx=284 conf=0.68 depth=1.49 -> vx=0.02 yaw_rate=-0.15
+[10.4] FOLLOW      bh=158 cx=318 conf=0.84 depth=1.49 -> vx=0.01 yaw_rate=-0.01
+[10.6] FOLLOW      bh=161 cx=350 conf=0.79 depth=1.48 -> vx=-0.00 yaw_rate=0.12
+[10.9] FOLLOW      bh=160 cx=361 conf=0.72 depth=1.47 -> vx=0.00 yaw_rate=0.16
+[11.2] DECEIT FLAG: box says 3.4m
+[11.2] DEPTH-DECEIT: box says 3.42m, D435i depth 1.45m
+[11.2] FOLLOW      bh=70 cx=426 conf=0.59 depth=1.45 -> vx=0.00 yaw_rate=0.42
+[11.5] FOLLOW      bh=159 cx=312 conf=0.62 depth=1.47 -> vx=0.01 yaw_rate=-0.03
+[11.8] FOLLOW      bh=160 cx=239 conf=0.78 depth=1.46 -> vx=0.00 yaw_rate=-0.32
+[12.0] FOLLOW      bh=163 cx=214 conf=0.74 depth=1.46 -> vx=0.00 yaw_rate=-0.42
+[12.3] FOLLOW      bh=161 cx=257 conf=0.73 depth=1.47 -> vx=0.00 yaw_rate=-0.25
+[12.6] FOLLOW      bh=157 cx=338 conf=0.73 depth=1.48 -> vx=0.02 yaw_rate=0.07
+[12.8] FOLLOW      bh=154 cx=400 conf=0.61 depth=1.46 -> vx=0.00 yaw_rate=0.32
+[13.1] FOLLOW      bh=160 cx=411 conf=0.51 depth=1.46 -> vx=0.00 yaw_rate=0.36
+[13.4] FOLLOW      bh=71 cx=451 conf=0.62 depth=1.45 -> vx=0.00 yaw_rate=0.52
+[13.7] FOLLOW      bh=159 cx=281 conf=0.76 depth=1.47 -> vx=0.00 yaw_rate=-0.15
+[13.9] FOLLOW      bh=70 cx=286 conf=0.68 depth=1.47 -> vx=0.45 yaw_rate=-0.13
+[14.2] FOLLOW      bh=163 cx=186 conf=0.90 depth=1.45 -> vx=0.00 yaw_rate=-0.54
+[14.5] FOLLOW      bh=164 cx=220 conf=0.88 depth=1.44 -> vx=0.00 yaw_rate=-0.40
+[14.7] FOLLOW      bh=167 cx=298 conf=0.87 depth=1.42 -> vx=-0.03 yaw_rate=-0.09
+[15.0] FOLLOW      bh=74 cx=475 conf=0.64 depth=1.35 -> vx=0.00 yaw_rate=0.62
+[15.3] FOLLOW      bh=77 cx=520 conf=0.80 depth=1.31 -> vx=0.00 yaw_rate=0.80
+[15.6] FOLLOW      bh=175 cx=371 conf=0.59 depth=1.35 -> vx=-0.06 yaw_rate=0.20
+[15.8] FOLLOW      bh=177 cx=199 conf=0.78 depth=1.33 -> vx=0.00 yaw_rate=-0.48
+[16.1] FOLLOW      bh=78 cx=216 conf=0.78 depth=1.33 -> vx=0.00 yaw_rate=-0.42
+[16.4] FOLLOW      bh=75 cx=250 conf=0.60 depth=1.35 -> vx=0.00 yaw_rate=-0.28
+[16.7] FOLLOW      bh=178 cx=247 conf=0.77 depth=1.35 -> vx=0.00 yaw_rate=-0.29
+[16.9] FOLLOW      bh=76 cx=410 conf=0.66 depth=1.34 -> vx=0.00 yaw_rate=0.36
+[17.2] FOLLOW      bh=172 cx=370 conf=0.41 depth=1.35 -> vx=-0.05 yaw_rate=0.20
+[17.5] FOLLOW      bh=178 cx=341 conf=0.84 depth=1.36 -> vx=-0.07 yaw_rate=0.08
+[17.8] FOLLOW      bh=173 cx=286 conf=0.86 depth=1.36 -> vx=-0.06 yaw_rate=-0.14
+[18.0] FOLLOW      bh=177 cx=255 conf=0.72 depth=1.36 -> vx=0.00 yaw_rate=-0.26
+[18.3] FOLLOW      bh=74 cx=357 conf=0.64 depth=1.38 -> vx=0.45 yaw_rate=0.15
+[18.6] FOLLOW      bh=72 cx=395 conf=0.44 depth=1.40 -> vx=0.00 yaw_rate=0.30
+[18.8] FOLLOW      bh=141 cx=317 conf=0.57 depth=1.41 -> vx=0.10 yaw_rate=-0.01
+[19.1] FOLLOW      bh=175 cx=281 conf=0.72 depth=1.37 -> vx=-0.06 yaw_rate=-0.16
+[19.4] FOLLOW      bh=77 cx=336 conf=0.41 depth=1.34 -> vx=0.45 yaw_rate=0.07
+[19.7] FOLLOW      bh=76 cx=352 conf=0.75 depth=1.33 -> vx=0.45 yaw_rate=0.13
+[19.9] FOLLOW      bh=179 cx=264 conf=0.54 depth=1.30 -> vx=-0.08 yaw_rate=-0.22
+[20.2] FOLLOW      bh=100 cx=244 conf=0.77 depth=1.23 -> vx=0.00 yaw_rate=-0.30
+[20.5] FOLLOW      bh=89 cx=366 conf=0.90 depth=1.17 -> vx=0.45 yaw_rate=0.18
+[20.8] FOLLOW      bh=89 cx=414 conf=0.89 depth=1.13 -> vx=0.00 yaw_rate=0.38
+[21.1] FOLLOW      bh=114 cx=299 conf=0.85 depth=1.11 -> vx=0.30 yaw_rate=-0.09
+[21.3] FOLLOW      bh=119 cx=232 conf=0.88 depth=1.03 -> vx=0.00 yaw_rate=-0.35
+[21.6] FOLLOW      bh=128 cx=211 conf=0.84 depth=0.98 -> vx=0.00 yaw_rate=-0.44
+[21.9] FOLLOW      bh=128 cx=252 conf=0.90 depth=0.94 -> vx=0.00 yaw_rate=-0.27
+[22.1] FOLLOW      bh=131 cx=333 conf=0.90 depth=0.92 -> vx=0.17 yaw_rate=0.05
+[22.4] FOLLOW      bh=135 cx=400 conf=0.92 depth=0.89 -> vx=0.00 yaw_rate=0.32
+[22.7] FOLLOW      bh=136 cx=416 conf=0.89 depth=0.88 -> vx=0.00 yaw_rate=0.38
+[23.0] FOLLOW      bh=139 cx=361 conf=0.90 depth=0.87 -> vx=0.12 yaw_rate=0.16
+[23.2] FOLLOW      bh=140 cx=276 conf=0.92 depth=0.86 -> vx=0.11 yaw_rate=-0.18
+[23.5] FOLLOW      bh=125 cx=356 conf=0.87 depth=0.83 -> vx=0.21 yaw_rate=0.15
+[23.8] FOLLOW      bh=148 cx=202 conf=0.89 depth=0.81 -> vx=0.00 yaw_rate=-0.47
+[24.0] FOLLOW      bh=150 cx=214 conf=0.88 depth=0.79 -> vx=0.00 yaw_rate=-0.43
+[24.3] FOLLOW      bh=156 cx=255 conf=0.89 depth=0.76 -> vx=0.00 yaw_rate=-0.26
+[24.6] FOLLOW      bh=158 cx=357 conf=0.91 depth=0.74 -> vx=0.01 yaw_rate=0.15
+[24.9] FOLLOW      bh=161 cx=422 conf=0.91 depth=0.76 -> vx=0.00 yaw_rate=0.41
+[25.2] FOLLOW      bh=161 cx=415 conf=0.87 depth=0.76 -> vx=0.00 yaw_rate=0.38
+[25.4] SAFETY_HALT (D435i depth 0.68m < 0.7m)
+[25.4] SAFETY_HALT bh=158 cx=500 conf=0.89 depth=0.68 -> vx=0.00 yaw_rate=0.72
+[25.7] SAFETY_HALT bh=164 cx=235 conf=0.88 depth=0.72 -> vx=0.00 yaw_rate=0.00
+[26.0] SAFETY_HALT bh=169 cx=164 conf=0.90 depth=0.69 -> vx=0.00 yaw_rate=0.00
+[26.2] SAFETY_HALT bh=148 cx=197 conf=0.85 depth=0.69 -> vx=0.00 yaw_rate=0.00
+[26.5] SAFETY_HALT bh=160 cx=182 conf=0.86 depth=0.68 -> vx=0.00 yaw_rate=0.00
+[26.8] SAFETY_HALT bh=161 cx=186 conf=0.89 depth=0.68 -> vx=0.00 yaw_rate=0.00
+[27.1] SAFETY_HALT bh=158 cx=191 conf=0.89 depth=0.68 -> vx=0.00 yaw_rate=0.00
+[27.3] SAFETY_HALT bh=151 cx=192 conf=0.87 depth=0.68 -> vx=0.00 yaw_rate=0.00
+log -> /home/nerw005/flytrap_sim/out/patched/fly_px4_20261113_173822.csv
+RESULT: final_state=SAFETY_HALT deceit_flag=True depth_deceit=True
+[link] LAND

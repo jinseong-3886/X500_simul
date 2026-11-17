@@ -1,0 +1,51 @@
+=== fly_mission_px4 | LIVE (will ARM and FLY) | target 'bus' | D0 0.6 D_SAFE 0.7 HOVER_Z 1.0
+load YOLO
+[mocap] source gz:flytrap_clean:x500_d435i_0: waiting for poses
+[link] connecting udpin:0.0.0.0:14540
+[link] PX4 heartbeat sys 1
+[link] local position ok: x 0.00 y -0.00 z 0.01 yaw 90 deg
+[link] OFFBOARD
+[link] ARMED -> takeoff
+[link] at hover altitude
+SEARCH: yaw-sweep for 'bus'
+[0.0] ACQUIRED (bus conf 0.77) -> FOLLOW
+[0.0] FOLLOW      bh=103 cx=318 conf=0.77 depth=2.39 -> vx=0.00 yaw_rate=0.45
+[0.3] intrinsics: fy=607px, target 0.396m
+[0.3] DECEIT FLAG: box says 2.3m
+[0.3] FOLLOW      bh=103 cx=313 conf=0.79 depth=2.39 -> vx=0.45 yaw_rate=-0.03
+[0.6] FOLLOW      bh=103 cx=264 conf=0.81 depth=2.38 -> vx=0.45 yaw_rate=-0.22
+[0.8] FOLLOW      bh=106 cx=229 conf=0.74 depth=2.35 -> vx=0.00 yaw_rate=-0.36
+[1.1] FOLLOW      bh=107 cx=258 conf=0.61 depth=2.31 -> vx=0.00 yaw_rate=-0.25
+[1.4] FOLLOW      bh=111 cx=317 conf=0.75 depth=2.22 -> vx=0.45 yaw_rate=-0.01
+[1.7] FOLLOW      bh=113 cx=371 conf=0.86 depth=2.17 -> vx=0.45 yaw_rate=0.21
+[1.9] FOLLOW      bh=116 cx=389 conf=0.74 depth=2.12 -> vx=0.00 yaw_rate=0.28
+[2.2] FOLLOW      bh=117 cx=363 conf=0.81 depth=2.06 -> vx=0.45 yaw_rate=0.17
+[2.5] FOLLOW      bh=122 cx=316 conf=0.85 depth=1.98 -> vx=0.45 yaw_rate=-0.02
+[2.7] FOLLOW      bh=127 cx=274 conf=0.81 depth=1.91 -> vx=0.45 yaw_rate=-0.19
+[3.0] FOLLOW      bh=131 cx=260 conf=0.88 depth=1.81 -> vx=0.00 yaw_rate=-0.24
+[3.3] FOLLOW      bh=141 cx=290 conf=0.85 depth=1.71 -> vx=0.45 yaw_rate=-0.12
+[3.6] FOLLOW      bh=149 cx=333 conf=0.87 depth=1.59 -> vx=0.45 yaw_rate=0.05
+[3.8] FOLLOW      bh=157 cx=364 conf=0.89 depth=1.54 -> vx=0.45 yaw_rate=0.18
+[4.2] FOLLOW      bh=166 cx=361 conf=0.91 depth=1.41 -> vx=0.43 yaw_rate=0.16
+[4.4] FOLLOW      bh=181 cx=333 conf=0.93 depth=1.30 -> vx=0.36 yaw_rate=0.05
+[4.7] FOLLOW      bh=201 cx=301 conf=0.93 depth=1.19 -> vx=0.30 yaw_rate=-0.07
+[5.0] FOLLOW      bh=217 cx=284 conf=0.92 depth=1.07 -> vx=0.25 yaw_rate=-0.14
+[5.2] FOLLOW      bh=220 cx=292 conf=0.92 depth=0.97 -> vx=0.19 yaw_rate=-0.11
+[5.5] DEPTH-DECEIT: box says 1.13m, D435i depth 0.87m
+[5.5] FOLLOW      bh=213 cx=322 conf=0.93 depth=0.87 -> vx=0.12 yaw_rate=0.01
+[5.8] FOLLOW      bh=207 cx=351 conf=0.90 depth=0.79 -> vx=0.05 yaw_rate=0.12
+[6.0] FOLLOW      bh=204 cx=361 conf=0.91 depth=0.73 -> vx=0.01 yaw_rate=0.16
+[6.3] SAFETY_HALT (mocap geofence: camera-board 0.70m < 0.7m)
+[6.3] SAFETY_HALT bh=202 cx=331 conf=0.92 depth=0.69 -> vx=0.00 yaw_rate=0.00
+[6.6] SAFETY_HALT bh=206 cx=306 conf=0.91 depth=0.67 -> vx=0.00 yaw_rate=0.00
+[6.9] SAFETY_HALT bh=210 cx=297 conf=0.89 depth=0.66 -> vx=0.00 yaw_rate=0.00
+[7.1] SAFETY_HALT bh=215 cx=299 conf=0.88 depth=0.66 -> vx=0.00 yaw_rate=0.00
+[7.4] SAFETY_HALT bh=217 cx=299 conf=0.90 depth=0.66 -> vx=0.00 yaw_rate=0.00
+[7.7] SAFETY_HALT bh=218 cx=301 conf=0.93 depth=0.67 -> vx=0.00 yaw_rate=0.00
+[7.9] SAFETY_HALT bh=217 cx=303 conf=0.92 depth=0.67 -> vx=0.00 yaw_rate=0.00
+[8.2] SAFETY_HALT bh=217 cx=304 conf=0.92 depth=0.68 -> vx=0.00 yaw_rate=0.00
+log -> /home/nerw005/flytrap_sim/out/clean_ev/fly_px4_20261113_181028.csv
+RESULT: final_state=SAFETY_HALT deceit_flag=True depth_deceit=True
+[link] LAND
+[link] waiting for touchdown/disarm (mocap keeps streaming)
+[link] disarmed
